@@ -1,15 +1,37 @@
 .crystals{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    align-items: left;
 }
 
 .crystal{
     border:1px solid green;
-    height:200px;
-    width: 200px;
+    height:100px;
+    width:100px;
 }
 
 img{
     width: 50px;
+}
+h1{
+    background-color: orange;
+    color: white;
+    width: 300px;
+    height:50px;
+    padding: 20px
+}
+body{
+    background-color: aqua;
+}
+.body{
+    background-color: bisque;
+    text-align: left;
+    width: 350px;
+    height: 400px;
+    color: rgb(22, 170, 54);
+}
+.number{
+    background-color: green;
+    width: 150px;
+    height: 70px;
 }
